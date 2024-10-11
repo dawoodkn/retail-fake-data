@@ -1,0 +1,153 @@
+       
+        # 'customer_id': 
+        # 'first_name': 
+        # 'last_name': 
+        # 'email': 
+        # 'phone': 
+        # 'date_of_birth': 
+        # 'gender': 
+        # 'address_line1':
+        # 'address_line2': 
+        # 'city': 
+        # 'state': 
+        # 'country': 
+        # 'postal_code': 
+        # 'registration_date': 
+        # 'customer_type': 
+        # 'preferred_contact_method': 
+        # 'occupation': 
+        # 'income_bracket':
+        
+        
+        # create a comma seperated string for all the variabled defined above
+
+        # output_file.write(customer_id +',' + first_name +',' + last_name +',' + email +',' + phone +',' + date_of_birth +',' + gender +',' + address_line1 +',' + \
+        #     address_line2 +',' + city +',' + state +',' + country +',' + postal_code +',' + registration_date +',' + customer_type +',' + \
+        #         preferred_contact_method +',' + occupation +',' + income_bracket + '\n')
+
+
+#print(transactions)
+# print(random.choice(transactions)['customer_id'])
+
+Transaction_item
+    transaction_item_id 
+    transactions_id
+    product_id 
+    quantity 
+    unit_price 
+    total_price 
+    discount_amount 
+
+Product
+    product_id
+    product_name V
+    category 
+    subcategory 
+    brand 
+    supplier_id 
+    unit_cost 
+    unit_price
+    current_stock 
+    reorder_level
+    is_active 
+
+Interaciton Data
+    interaction_id 
+    customer_id 
+    interaction_type 
+    interaction_date 
+    channel
+    duration
+    page_views
+    conversion 
+
+Marketing campaign
+    campaign_id
+    campaign_name
+    campaign_type
+    start_date
+    end_date 
+    target_audience 
+    channel 
+    total_budget 
+    total_spend 
+
+Campaign Results
+    result_id
+    campaign_id 
+    customer_id 
+    interaction_date 
+    action 
+    revenue_generated 
+
+
+Loyalty program
+
+    loyalty_id
+    customer_id 
+    enrollment_date 
+    current_tier 
+    total_points_earned
+    total_points_redeemed 
+    current_points_balance 
+    last_activity_date 
+
+
+Customer service data
+    ticket_id 
+    customer_id 
+    created_date 
+    closed_date
+    issue_type
+    priority
+    status 
+    resolution_time (mins)
+    satisfaction_score  (1-5)
+    channel phone, email, chat, self-service
+
+-- digital engagement dat
+    engagement_id
+    customer_id 
+    engagement_date 
+    platform
+    session_duration 
+    pages_viewed 
+    features_used 
+    conversion 
+    bounce 
+    
+
+
+-- Social Media Interactions
+social_media_interactions 
+    interaction_id 
+    customer_id 
+    platform
+    interaction_date
+    interaction_type 
+    post_id 
+    sentiment 
+
+
+
+Produt reviews
+    review_id
+    product_id 
+    customer_id
+    review_date
+    rating 
+    review_text
+    helpful_votes 
+    sentiment 
+
+cust feedback
+    feedback_id
+    customer_id 
+    feedback_date
+    feedback_type 
+    score
+    comments
+    context 
+
+
+strftime('%Y-%m-%d')
